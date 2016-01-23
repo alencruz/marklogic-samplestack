@@ -114,6 +114,35 @@ dbLoad.dependsOn(seedDataExtract)
 dbLoad.outputs.upToDateWhen { false }
 
 /*
+ * MOVE BASEBALL DATA
+ */
+task seedDataMoveBaseball {
+    ext.destDir = file("${buildDir}/seed-data/baseball-seed-data")
+    ext.srcDir = file("${buildDir}/../../../www.retrosheet.org-data/2015eve/JSON")
+    inputs.dir srcDir
+    outputs.dir destDir
+    doLast {
+        destDir.mkdirs()
+        copy {
+            from srcDir
+                into destDir
+        }
+    }
+} 
+
+/*
+ * LOAD BASEBALL DATA
+ */
+task dbLoadBaseball(type: MarkLogicSlurpTask) {
+    seedDirectory = file("${buildDir}/seed-data/baseball-seed-data")
+    inputs.dir seedDirectory
+}
+dbLoadBaseball.mustRunAfter(assemble)
+dbLoadBaseball.dependsOn(seedDataMoveBaseball)
+/* never skip dbload if requested */
+dbLoadBaseball.outputs.upToDateWhen { false }
+
+/*
  * CLEAR
  */
 task dbClear(type: MarkLogicClearTask)

@@ -1,0 +1,182 @@
+[
+  {
+    "Abbreviation": "ANA",
+    "League": "A",
+    "Location": "Anaheim",
+    "Name": "Angels"
+  },
+  {
+    "Abbreviation": "BAL",
+    "League": "A",
+    "Location": "Baltimore",
+    "Name": "Orioles"
+  },
+  {
+    "Abbreviation": "BOS",
+    "League": "A",
+    "Location": "Boston",
+    "Name": "Red Sox"
+  },
+  {
+    "Abbreviation": "CHA",
+    "League": "A",
+    "Location": "Chicago",
+    "Name": "White Sox"
+  },
+  {
+    "Abbreviation": "CLE",
+    "League": "A",
+    "Location": "Cleveland",
+    "Name": "Indians"
+  },
+  {
+    "Abbreviation": "DET",
+    "League": "A",
+    "Location": "Detroit",
+    "Name": "Tigers"
+  },
+  {
+    "Abbreviation": "HOU",
+    "League": "A",
+    "Location": "Houston",
+    "Name": "Astros"
+  },
+  {
+    "Abbreviation": "KCA",
+    "League": "A",
+    "Location": "Kansas City",
+    "Name": "Royals"
+  },
+  {
+    "Abbreviation": "MIN",
+    "League": "A",
+    "Location": "Minnesota",
+    "Name": "Twins"
+  },
+  {
+    "Abbreviation": "NYA",
+    "League": "A",
+    "Location": "New York",
+    "Name": "Yankees"
+  },
+  {
+    "Abbreviation": "OAK",
+    "League": "A",
+    "Location": "Oakland",
+    "Name": "Athletics"
+  },
+  {
+    "Abbreviation": "SEA",
+    "League": "A",
+    "Location": "Seattle",
+    "Name": "Mariners"
+  },
+  {
+    "Abbreviation": "TBA",
+    "League": "A",
+    "Location": "Tampa Bay",
+    "Name": "Rays"
+  },
+  {
+    "Abbreviation": "TEX",
+    "League": "A",
+    "Location": "Texas",
+    "Name": "Rangers"
+  },
+  {
+    "Abbreviation": "TOR",
+    "League": "A",
+    "Location": "Toronto",
+    "Name": "Blue Jays"
+  },
+  {
+    "Abbreviation": "ARI",
+    "League": "N",
+    "Location": "Arizona",
+    "Name": "Diamondbacks"
+  },
+  {
+    "Abbreviation": "ATL",
+    "League": "N",
+    "Location": "Atlanta",
+    "Name": "Braves"
+  },
+  {
+    "Abbreviation": "CHN",
+    "League": "N",
+    "Location": "Chicago",
+    "Name": "Cubs"
+  },
+  {
+    "Abbreviation": "CIN",
+    "League": "N",
+    "Location": "Cincinnati",
+    "Name": "Reds"
+  },
+  {
+    "Abbreviation": "COL",
+    "League": "N",
+    "Location": "Colorado",
+    "Name": "Rockies"
+  },
+  {
+    "Abbreviation": "LAN",
+    "League": "N",
+    "Location": "Los Angeles",
+    "Name": "Dodgers"
+  },
+  {
+    "Abbreviation": "MIA",
+    "League": "N",
+    "Location": "Miami",
+    "Name": "Marlins"
+  },
+  {
+    "Abbreviation": "MIL",
+    "League": "N",
+    "Location": "Milwaukee",
+    "Name": "Brewers"
+  },
+  {
+    "Abbreviation": "NYN",
+    "League": "N",
+    "Location": "New York",
+    "Name": "Mets"
+  },
+  {
+    "Abbreviation": "PHI",
+    "League": "N",
+    "Location": "Philadelphia",
+    "Name": "Phillies"
+  },
+  {
+    "Abbreviation": "PIT",
+    "League": "N",
+    "Location": "Pittsburgh",
+    "Name": "Pirates"
+  },
+  {
+    "Abbreviation": "SDN",
+    "League": "N",
+    "Location": "San Diego",
+    "Name": "Padres"
+  },
+  {
+    "Abbreviation": "SFN",
+    "League": "N",
+    "Location": "San Francisco",
+    "Name": "Giants"
+  },
+  {
+    "Abbreviation": "SLN",
+    "League": "N",
+    "Location": "St. Louis",
+    "Name": "Cardinals"
+  },
+  {
+    "Abbreviation": "WAS",
+    "League": "N",
+    "Location": "Washington",
+    "Name": "Nationals"
+  }
+]
