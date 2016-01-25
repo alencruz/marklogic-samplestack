@@ -82,6 +82,25 @@ public class QnADocumentController {
 		qtext.put("qtext",q);
 		return qnaService.rawSearch(ClientRole.securityContextRole(), combinedQuery, start, DateTimeZone.forID("US/Pacific"));
 	}
+	
+	/** 
+	 * Searches for baseball team data
+	 * @param q A search string (See Search API docs)
+	 * @param start The index of the first return result.
+	 * @return A Search API JSON response containing matches, facets and snippets.
+	 */
+	@RequestMapping(value = "v1/teams", method = RequestMethod.GET)
+	public @ResponseBody
+	JsonNode getTeamDocuments(@RequestParam(required = false) String q,
+			@RequestParam(required = false, defaultValue = "1") long start) {
+		if (q == null) {
+			q = "sort:active";
+		}
+		ObjectNode combinedQuery = mapper.createObjectNode();
+		ObjectNode qtext = combinedQuery.putObject("search");
+		qtext.put("qtext",q);
+		return qnaService.rawSearch(ClientRole.securityContextRole(), combinedQuery, start, DateTimeZone.forID("US/Pacific"));
+	}
 
 	/**
 	 * Exposes endpoint for asking a question.
